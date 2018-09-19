@@ -7,12 +7,11 @@ private NandGate XorGate_z;
 private NandGate XorGate_w;
 
 	public XorGate() {
-		super(2);
+		super(2,"XorGate");
 		XorGate_x = new NandGate();
 		XorGate_y = new NandGate();
 		XorGate_z = new NandGate();
 		XorGate_w = new NandGate();
-		name = "XorGate";
 		
 		
 	}

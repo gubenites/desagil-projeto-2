@@ -7,11 +7,10 @@ public class OrGate extends Gate {
 	
 	
 	public OrGate() {
-		super(2);
+		super(2,"OrGate");
 		orGate_x = new NandGate();
 		orGate_y = new NandGate();
 		orGate_z = new NandGate();
-		name = "OrGate";
 		
 		
 	}

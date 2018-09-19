@@ -5,10 +5,9 @@ private NandGate AndGate_x;
 private NandGate AndGate_y;
 
 	public AndGate() {
-		super(2);
+		super(2,"AndGate");
 		AndGate_x = new NandGate();
 		AndGate_y = new NandGate();
-		name = "AndGate";
 		}
 	@Override
 	public boolean read() {

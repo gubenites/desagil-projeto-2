@@ -5,11 +5,16 @@ public abstract class Gate implements Emitter, Receiver {
 	protected String name;
 	
 	
-	protected Gate(int size) {
+	protected Gate(int size,String name) {
 		this.size = size;
+		this.name = name;
 	}
 	public int getSize() {
 		return size;
 	}
+	public String toString() {
+		return name;
+	}
+	public abstract boolean read(boolean input0, boolean input1);
 }
 
