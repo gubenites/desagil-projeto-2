@@ -20,7 +20,7 @@ public class NotGate extends Gate {
 	@Override
 	public void connect(int pinIndex, Emitter emitter) {
 		// TODO Auto-generated method stub	
-		notGate_x.connect(0, notGate_x);
-		notGate_x.connect(1, notGate_x);
+		notGate_x.connect(0, emitter);
+		notGate_x.connect(1, emitter);
 	}
 }
