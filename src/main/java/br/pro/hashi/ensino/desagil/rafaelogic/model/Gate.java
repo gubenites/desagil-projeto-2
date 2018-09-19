@@ -15,6 +15,6 @@ public abstract class Gate implements Emitter, Receiver {
 	public String toString() {
 		return name;
 	}
-	public abstract boolean read(boolean input0, boolean input1);
+	public abstract boolean read();
 }
 
