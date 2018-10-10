@@ -11,6 +11,7 @@ import br.pro.hashi.ensino.desagil.rafaelogic.model.XorGate;
 import br.pro.hashi.ensino.desagil.rafaelogic.model.NotGate;
 import br.pro.hashi.ensino.desagil.rafaelogic.view.View;
 import br.pro.hashi.ensino.desagil.rafaelogic.model.Gate;
+import br.pro.hashi.ensino.desagil.rafaelogic.model.NandGate;
 
 public class Rafaelogic{
 	public static void main(String[] args) {
@@ -22,6 +23,7 @@ public class Rafaelogic{
 				model.add(new OrGate());
 				model.add(new XorGate());
 				model.add(new NotGate());
+				model.add(new NandGate());
 
 				View view = new View(model);
 
